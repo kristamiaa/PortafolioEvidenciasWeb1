@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examen práctico Parcial 2</title>
+    <link rel="stylesheet" type="text/css" href="examenPractico2.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Examen práctico Parcial 2</h1>
+    <h2>Krista Mia Ramirez Barrios </h2>
+
+    <input type="button" id="mostrar" value="Galería de imágenes" onmouseover="ocultarGaleria()" onmouseout="mostrarGaleria()">
+
+    <div class="galeria" id="galeria">
+        <div class="imagen">
+            <img src="minion1.jpeg">
+        </div>
+        <div class="imagen">
+            <img src="minion2.jpeg">
+        </div>
+        <div class="imagen">
+            <img src="minion3.jpeg">
+        </div>
+        <div class="imagen">
+            <img src="minion4.jpeg">
+        </div>
+    </div>
+    <script>
+        function ocultarGaleria() {
+            document.getElementById("galeria").style.opacity = "0";
+        }
+
+        function mostrarGaleria() {
+            document.getElementById("galeria").style.opacity = "1";
+        }
+    </script>
+</body>
+</html>
