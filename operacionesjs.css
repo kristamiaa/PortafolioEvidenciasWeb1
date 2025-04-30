@@ -1,0 +1,56 @@
+/* operacionesjs.css */
+
+body {
+    background: linear-gradient(135deg, #ffe0f0, #d0eaff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffffdd;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    color: #444;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="button"] {
+    background-color: #fcb1d3;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #ff89c2;
+}
+
+#resultado {
+    font-size: 24px;
+    color: #2a2a2a;
+    margin-top: 20px;
+    font-weight: bold;
+}
